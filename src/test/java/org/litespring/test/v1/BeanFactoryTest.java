@@ -14,6 +14,7 @@ public class BeanFactoryTest {
 	public void testGetBean(){
 
 		BeanFactory factory = new DefaultBeanFactory("petstore-v1.xml");
-		
+
+		System.out.println(factory);
 	}
 }
