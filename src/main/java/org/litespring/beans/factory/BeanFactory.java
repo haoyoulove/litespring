@@ -1,4 +1,4 @@
-package com.litespring.beans.factory;
+package org.litespring.beans.factory;
 
 /**
  * @author yangjing

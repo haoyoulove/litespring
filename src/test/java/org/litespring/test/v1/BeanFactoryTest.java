@@ -1,7 +1,7 @@
-package com.litespring.test.v1;
+package org.litespring.test.v1;
 
-import com.litespring.beans.factory.BeanFactory;
-import com.litespring.beans.factory.support.DefaultBeanFactory;
+import org.litespring.beans.factory.BeanFactory;
+import org.litespring.beans.factory.support.DefaultBeanFactory;
 import org.junit.Test;
 
 /**

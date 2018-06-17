@@ -1,6 +1,6 @@
-package com.litespring.beans.factory.support;
+package org.litespring.beans.factory.support;
 
-import com.litespring.beans.factory.BeanFactory;
+import org.litespring.beans.factory.BeanFactory;
 
 /**
  * @author yangjing
