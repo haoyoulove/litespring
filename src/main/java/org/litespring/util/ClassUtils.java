@@ -1,4 +1,4 @@
-package util;
+package org.litespring.util;
 
 /**
  * @author yangjing
