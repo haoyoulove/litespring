@@ -76,6 +76,7 @@ public class BeanFactoryTest {
 
 		Assert.assertFalse(pro.equals(pro2));
 
+
 	}
 
 	@Test
