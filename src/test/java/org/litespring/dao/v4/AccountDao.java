@@ -1,6 +1,6 @@
 package org.litespring.dao.v4;
 
-import org.litespring.beans.factory.annotation.Component;
+import org.litespring.stereotype.Component;
 
 /**
  * @author yangjing

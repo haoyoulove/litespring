@@ -1,7 +1,7 @@
 package org.litespring.service.v4;
 
 import org.litespring.beans.factory.annotation.Autowired;
-import org.litespring.beans.factory.annotation.Component;
+import org.litespring.stereotype.Component;
 import org.litespring.dao.v4.AccountDao;
 import org.litespring.dao.v4.ItemDao;
 

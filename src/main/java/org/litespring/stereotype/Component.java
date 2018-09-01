@@ -1,4 +1,4 @@
-package org.litespring.beans.factory.annotation;
+package org.litespring.stereotype;
 
 import java.lang.annotation.*;
 
