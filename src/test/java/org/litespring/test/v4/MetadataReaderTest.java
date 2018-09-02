@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.litespring.core.annotation.AnnotationAttributes;
 import org.litespring.core.io.ClassPathResource;
 import org.litespring.core.type.AnnotationMetadata;
-import org.litespring.core.type.classreading.MetadataReade;
+import org.litespring.core.type.classreading.MetadataReader;
 import org.litespring.core.type.classreading.SimpleMetadataReader;
 import org.litespring.stereotype.Component;
 
@@ -20,7 +20,7 @@ public class MetadataReaderTest {
 	public void testGetMetadata() throws IOException {
 		ClassPathResource resource = new ClassPathResource("org/litespring/service/v4/PetStoreService.class");
 
-		MetadataReade reader = new SimpleMetadataReader(resource);
+		MetadataReader reader = new SimpleMetadataReader(resource);
 		//注意：不需要单独使用ClassMetadata
 		//ClassMetadata clzMetadata = reader.getClassMetadata();
 		AnnotationMetadata amd = reader.getAnnotationMetadata();

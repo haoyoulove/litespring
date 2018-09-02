@@ -12,7 +12,7 @@ import java.io.InputStream;
 /**
  * @author yangjing
  */
-public class SimpleMetadataReader implements MetadataReade {
+public class SimpleMetadataReader implements MetadataReader {
 
 	private final Resource resource;
 	private final ClassMetadata classMetadata;

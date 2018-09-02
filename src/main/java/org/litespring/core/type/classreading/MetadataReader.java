@@ -7,7 +7,7 @@ import org.litespring.core.type.ClassMetadata;
 /**
  * @author yangjing
  */
-public interface MetadataReade {
+public interface MetadataReader {
 
 	/**
 	 * Return the resource reference for the class file.

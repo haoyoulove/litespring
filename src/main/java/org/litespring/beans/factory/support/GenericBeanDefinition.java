@@ -30,9 +30,18 @@ public class GenericBeanDefinition implements BeanDefinition {
 		this.beanClassName = beanClassName;
 	}
 
+	public GenericBeanDefinition() {
+	}
+
 	public String getBeanClassName() {
 
 		return this.beanClassName;
+	}
+
+
+
+	public void setBeanClassName(String beanClassName) {
+		this.beanClassName = beanClassName;
 	}
 
 	public boolean isSingleton() {
@@ -64,6 +73,10 @@ public class GenericBeanDefinition implements BeanDefinition {
 
 	public String getID() {
 		return this.id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
 	}
 
 	public boolean hasConstructorArgumentValues() {
